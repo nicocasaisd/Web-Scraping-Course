@@ -18,6 +18,7 @@ def obtener_script_scrolling(iteration):
 # Instancio el web driver
 opts = Options()
 opts.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36")
+opts.add_argument("--headless")
 driver = webdriver.Chrome(options=opts)
 
 # Obtengo la url semilla
