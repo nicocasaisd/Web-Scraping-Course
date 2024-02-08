@@ -5,9 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
-import random
 
-# Creo la función para realizar scrolling (NO LA USO)
+# Creo la función para realizar scrolling
 
 def obtener_script_scrolling(iteration):
     scrollingScript = """
