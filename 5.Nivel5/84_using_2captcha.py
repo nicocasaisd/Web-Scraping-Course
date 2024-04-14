@@ -29,7 +29,7 @@ try:
   
   # Armo el requerimiento a 2captcha
   url = "https://2captcha.com/in.php?"
-  url += "key=" + "deb56d806b426e7372d84efb4f513246" # API KEY 2CAPTCHA
+  url += "key=" + "API_KEY" # API KEY 2CAPTCHA
   url += "&method=userrecaptcha"
   url += "&googlekey=" + captcha_key
   url += "&pageurl=" + url
@@ -48,7 +48,7 @@ try:
 
   # Armo el requerimiento para consultar si el captcha ya se encuentra resuelto
   url_resp = "https://2captcha.com/res.php?"
-  url_resp += "key=" + "2CAPTCHA_API_KEY_VER_DESCRIPCION_CLASE" # API KEY
+  url_resp += "key=" + "API_KEY" # API KEY
   url_resp += "&action=get"
   url_resp += "&id=" + captcha_service_key # ID del captcha en el sistema de 2CAPTCHA obtenido previamente
   url_resp += "&json=0"
